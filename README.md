@@ -58,4 +58,6 @@ Ensure you have the following installed:
 
    - DELETE /deleteUser/:id - Delete a user
       ![Delete user](client/src/assets/delete_user.png)
-
+   
+   - Mongo db Snapshot
+      ![Mongo users snapshot](client/src/assets/Mongo.png)
