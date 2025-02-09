@@ -48,14 +48,14 @@ Ensure you have the following installed:
 ### API Endpoints:
 - Users:
    - GET / - Retrieve all users
-      ![All Users](client/assets/users.png)
+      ![All Users](client/src/assets/users.png)
 
    - POST /createUser - Create a new user
-      ![New user](client/assets/new_user.png)
+      ![New user](client/src/assets/new_user.png)
 
    - PUT /updateUser/:id - Update a user
-      ![Update user](client/assets/update_user.png)
+      ![Update user](client/src/assets/update_user.png)
 
    - DELETE /deleteUser/:id - Delete a user
-      ![Delete user](client/assets/delete_user.png)
+      ![Delete user](client/src/assets/delete_user.png)
 
