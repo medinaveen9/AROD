@@ -13,10 +13,17 @@ function Users() {
     }, []);
  
      const handleDelete=(id) => {
-        axios.delete('http://localhost:3001/deleteUser/'+id)
-        .then(res => {console.log(res)
-        window.location.reload()})
-        .catch(errr=>console.log(errr))
+
+        const isConfirmed = window.confirm("Are you sure you want to delete this user?");
+    
+        if (isConfirmed) {
+            axios.delete('http://localhost:3001/deleteUser/'+id)
+            .then(res => {
+                console.log(res);
+                window.location.reload();
+            })
+            .catch(err => console.log(err));
+        }
      }
     return (
         <div className="d-flex vh-100 bg-primary justify-content-center align-items-center">
